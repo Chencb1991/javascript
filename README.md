@@ -1,5 +1,5 @@
 # javascript
-> 构造函数和原型对象
+> 构造函数和原型对象封装
 ```
 <script type="text/javascript">
 		//构造函数
