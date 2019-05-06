@@ -32,3 +32,25 @@
 	</script>
 
 ```
+
+
+
+> 是否微信qq打开
+
+```
+ is_weixn_qq(){
+        var ua = navigator.userAgent.toLowerCase();
+        //如果是微信和QQ隐藏内容
+        if(ua.match(/MicroMessenger\/[0-9]/i)||ua.match(/QQ\/[0-9]/i)){
+           this.iswx=true;
+           this.tgqd='0';
+           return
+        }else{
+            //如果不是微信和Qq计算pv
+            this.init()
+        }
+    }
+```
+
+
+
